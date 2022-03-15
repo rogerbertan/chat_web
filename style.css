@@ -46,41 +46,47 @@ header {
 .right {
     float: right;
     padding-right: 5px;
-    display: block;
 }
 
 .left {
-    display: block;
     margin-left: 1%;
 }
 
-.input input {
+footer input {
     font-size: 16px;
     margin-left: 12px;
-    width: 77%;
+    width: 200%;
     align-items: center;
     padding: 5px;
     border: 1px solid black;
     border-radius: 6px;
 }
 
-button {
+footer button {
     color: rgb(130, 0, 206);
-    width: 15%;
+    width: 30%;
     font-weight: bold;
     font-size: 16px;
     border: 1px solid black;
     border-radius: 4px;
     padding: 5px;
     margin-right: 2%;
-    float: right;
+    margin-left: 9px;    
 }
 
 footer {
-    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 12px 0;
+    border-top: 3px solid gray;
 }
 
 button:hover {
     background-color: rgb(130, 0, 206);
     color: white;
+}
+
+form{
+    overflow: auto;
+    zoom: 1;
 }

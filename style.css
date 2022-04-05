@@ -28,6 +28,7 @@ header {
 }
 
 .description {
+    font-weight: bold;
     margin-top: 1px;
     margin-bottom: 3px;
     padding: 1px 5px;
@@ -52,7 +53,7 @@ header {
     margin-left: 1%;
 }
 
-footer input {
+.botton input {
     font-size: 16px;
     margin-left: 12px;
     width: 200%;
@@ -62,8 +63,9 @@ footer input {
     border-radius: 6px;
 }
 
-footer button {
-    color: rgb(130, 0, 206);
+.botton button {
+    background-color: rgb(130, 0, 206);
+    color: white;
     width: 30%;
     font-weight: bold;
     font-size: 16px;
@@ -71,10 +73,10 @@ footer button {
     border-radius: 4px;
     padding: 5px;
     margin-right: 2%;
-    margin-left: 9px;    
+    margin-left: 9px;
 }
 
-footer {
+.botton {
     justify-content: space-between;
     display: flex;
     padding: 12px 0;
@@ -82,11 +84,12 @@ footer {
 }
 
 button:hover {
-    background-color: rgb(130, 0, 206);
+    background-color: rgb(108, 0, 171);
     color: white;
 }
 
-form{
+.chat {
     overflow: auto;
     zoom: 1;
+    padding-bottom: 100px;
 }
